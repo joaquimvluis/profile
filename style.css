@@ -1,0 +1,131 @@
+/* 003844 - dark blueish green*/
+/* 006C67 - dark green*/
+/* FFEBC6 - almond */
+/* FFB100 - honey yellow */
+
+
+@media (max-width: 1400px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container-center {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container-center {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container-center {
+    width: 300px;
+  }
+}
+
+
+body {
+  background-color: #FFEBC6;
+  /* background-color: #000000; */
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Space Mono', monospace;
+  font-size: regular;
+  line-height: 30px;
+}
+
+h1 {
+  color: #003844;
+  font-size: 3em;
+}
+
+h2 {
+  color: #006C67;
+}
+
+p {
+  padding: 10px;
+  margin: 10px 10px;
+  line-height: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFB100;
+}
+
+/* a:hover {
+  color: #e69f00;
+} */
+
+.list-inline a {
+  color: #FFB100;
+}
+
+.list-inline a:hover {
+  color: #e69f00;
+}
+
+.container-center {
+  /* width: 600px; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-rounded {
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.btn-yellow {
+  background-color: #FFB100;
+  color: white;
+}
+
+.btn-yellow:hover {
+  background-color: #e69f00;
+}
+
+.card {
+  padding: 20px 20px;
+  margin: 30px 0;
+  box-shadow: 20px 20px rgba(0,0,0,0.1);
+}
+
+.card-white {
+  background-color: white;
+}
+
+.card-yellow {
+  background-color: #FFB100;
+  color: white;
+}
+
+.card-yellow a {
+  color: white;
+}
+
+.img-profile {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+}
+
+.list-inline {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 3em;
+  margin: 0 6px;
+}
